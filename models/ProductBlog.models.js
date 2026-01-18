@@ -61,7 +61,6 @@ const productBlogSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-productBlogSchema.index({ product: 1 }, { unique: true });
 productBlogSchema.index({ title: 1 });
 
 module.exports = mongoose.model("ProductBlog", productBlogSchema);

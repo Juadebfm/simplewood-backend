@@ -8,6 +8,7 @@
     "dev": "nodemon server.js",
     "seed:products": "node scripts/seed-products.js",
     "seed:dashboard": "node scripts/seed-dashboard.js",
+    "seed:blogs": "node scripts/seed-product-blogs.js",
     "migrate:lighting": "node scripts/migrate-lightning-to-lighting.js",
     "test": "echo \"No tests specified yet\""
   },
