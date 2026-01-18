@@ -1,0 +1,40 @@
+{
+  "name": "e-commerce-backend",
+  "version": "1.0.0",
+  "description": "A carpenter UI Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed:products": "node scripts/seed-products.js",
+    "seed:dashboard": "node scripts/seed-dashboard.js",
+    "migrate:lighting": "node scripts/migrate-lightning-to-lighting.js",
+    "test": "echo \"No tests specified yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juadebfm/e-commerce-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Juadebfm/e-commerce-backend/issues"
+  },
+  "homepage": "https://github.com/Juadebfm/e-commerce-backend#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "nodemailer": "^7.0.12",
+    "stripe": "^20.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
